@@ -6,4 +6,4 @@
 .clj-kondo
 .lsp
 target
-*.iml
+dolar-ambito.iml

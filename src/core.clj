@@ -24,4 +24,5 @@
     (printf "DOLAR INFORMAL %s compra: %s - venta: %s\n" (:fecha @informal) (:compra @informal) (:venta @informal))
     (printf "DOLAR TURISTA %s compra: %s - venta: %s\n" (:fecha @turista-value) (:compra @turista-value) (:venta @turista-value))
     (printf "DOLAR-CAD %s" (get-in (first (:observations @cad-usd-value)) [:FXUSDCAD :v]))
-    (println)))
+    (println))
+  (System/exit 0))
