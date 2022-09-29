@@ -1,3 +1,9 @@
 .cpcache
 .idea
 .nrepl-port
+.env
+.calva
+.clj-kondo
+.lsp
+target
+*.iml
